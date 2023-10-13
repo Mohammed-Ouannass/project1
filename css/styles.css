@@ -72,6 +72,18 @@ button:hover {
   background-color: #005b8a;
 }
 
+/* Image styling */
+.image-section {
+  text-align: center; 
+}
+
+.image-section img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
 @media (min-width: 768px) {
   header {
     padding: 4rem 0;
