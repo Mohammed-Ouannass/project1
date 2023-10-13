@@ -71,3 +71,25 @@ button {
 button:hover {
   background-color: #005b8a;
 }
+
+@media (min-width: 768px) {
+  header {
+    padding: 4rem 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  main {
+    padding: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  form {
+    font-size: 1.5rem;
+  }
+}
