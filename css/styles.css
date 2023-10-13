@@ -30,3 +30,10 @@ main {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Typography Styles */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #0077b6;
+}
