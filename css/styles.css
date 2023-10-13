@@ -12,3 +12,8 @@ header {
   text-align: center;
   padding: 2rem 0;
 }
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
