@@ -57,3 +57,17 @@ input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+button {
+  background-color: #0077b6;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005b8a;
+}
