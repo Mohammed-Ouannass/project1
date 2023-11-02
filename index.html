@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
     <link rel="stylesheet" media="screen" href="css/styles.css">
+    <script src="js/script.js" async></script>
     <title>Explore Chicago</title>
   </head>
   <body>
@@ -16,12 +17,12 @@
       <section class="signup-section">
         <h2>Discover Chicago's Hidden Treasures</h2>
         <p>Join ExploreChicago to get insights into Chicago's most fun areas to visit.</p>
-        <form id="signup-form">
+        <form id="signup-form" method="get" action="#null" autocomplete="on">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required>
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required>
-          <button type="submit" id="signup-button">Sign Up</button>
+          <button type="submit" id="signup-button">Start Exploring Chicago</button>
         </form>
       </section>
       <div class="image-section">
@@ -31,6 +32,5 @@
     <footer>
       <p>&copy; 2023 ExploreChicago.com</p>
     </footer>
-    <script src="js/script.js" async></script>
   </body>
 </html>
