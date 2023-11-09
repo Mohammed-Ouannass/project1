@@ -1,8 +1,9 @@
 // When signing up there is an alert
 const form = document.getElementById('signup-form');
 form.addEventListener('submit', (event) => {
+  event.preventDefault(); // Always prevent the default form submission
+  
   if (!validateForm()) {
-    event.preventDefault();
     return;
   }
   
