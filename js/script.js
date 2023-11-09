@@ -1,7 +1,11 @@
 // When signing up there is an alert
 const form = document.getElementById('signup-form');
 form.addEventListener('submit', (event) => {
-  event.preventDefault();
+  if (!validateForm()) {
+    event.preventDefault();
+    return;
+  }
+  
   alert('Thank you for signing up!');
 });
 
